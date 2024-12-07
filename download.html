@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIS: AgriImpactSuite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: #ECFFDC;
+        }
+        header {
+            background-color: maroon;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 4.5em;
+        }
+        header p {
+            font-size: 2.2em;
+            margin: 10px 0 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        section h2 {
+            color: darkblue;
+            border-bottom: 2px solid #ffa500;
+            padding-bottom: 5px;
+        }
+        a {
+            color: #ffa500;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .download-links, .resources {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .download-links a, .resources a {
+            background-color: maroon;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            flex: 1;
+            max-width: 200px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .download-links a:hover, .resources a:hover {
+            background-color: darkgrey;
+        }
+        footer {
+            background-color: grey;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+	<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px; background-color: maroon; color: white;">
+		<!-- Left Logo -->
+		<img src="icar_logo.jpg" alt="Left Logo" style="width: 100px; height: auto; padding: 0 20px;">
+
+		<!-- Center Content -->
+		<div style="text-align: center; flex-grow: 1;">
+			<h1 style="margin: 0; font-size: 4.5em;">TSP: Time Series Projection</h1>
+			<p style="font-size: 2.2em; margin: 10px 0 0;">From data trends to future projections, simplified.</p>
+		</div>
+
+		<!-- Right Logo -->
+		<img src="niap_logo.jpeg" alt="Right Logo" style="width: 100px; height: auto; padding: 0 20px;">
+		<img src="iasri_logo.jpg" alt="Right Logo" style="width: 90px; height: auto; padding: 0 20px;">
+	</header>
+    <main>
+        <section>
+            <h2>Download Link</h2>
+            <div class="download-links">
+                <a href="" target="_blank">Download for Windows</a>
+                <a href="" target="_blank">Download for Ubuntu</a>
+            </div>
+            <p>(For the first-time usage in Windows, select "More Info" option and then click "Run Anyway")</p>
+        </section>
+
+        <section>
+            <div class="download-links">
+                <a href="index.html">Back to the main Page</a>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Developed by :
+		<br>
+		<br>ICAR-Central Soil Salinity Research Institute, Karnal, Haryana, India
+		<br>ICAR-Indian Agricultural Statistics Research Institute, New Delhi, India
+        <br>Contact us at <a href="mailto:samarth.godara@gmail.com">samarth.godara@gmail.com</a>
+	</p>
+	<br>
+	<div id="clustrmaps-container" style="width: 30%; margin: auto;">
+		<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=0Xw59dwezyHnA3U7Y0VPzLq9V-knexfSrzVzaxGYOI0&cl=ffffff&w=a"></script>
+        </div>
+    </footer>
+</body>
+</html>
